@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="APIOrder.cs" />
     <Compile Include="IOrderSource.cs" />
+    <Compile Include="mySQLServer.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderRepository.cs" />
     <Compile Include="Program.cs" />

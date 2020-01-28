@@ -10,6 +10,8 @@ namespace HomeTask2._1
     {
         static void Main(string[] args)
         {
+            OrderRepository orderRepository = new OrderRepository(new APIOrder());
+            orderRepository.Load(1);
         }
     }
 }
